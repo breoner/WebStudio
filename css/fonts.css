@@ -32,9 +32,12 @@ a[href="tel:+380961111111"] {
     color: var(--maincolor-color);
 }
 
+[href="../index.html"] {
+    color: var(--logo-color);
+}
+
 span {
-    font-family: Raleway;
-    color: var(--mainlogo-color);
+ color: var(--mainlogo-color);
 }
 
 header{
