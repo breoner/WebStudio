@@ -9,10 +9,6 @@
 
 }
 
-h2 {
-    color: var(--maincolor-color);
-}
-
 button[type="button"] {
     color: var(--mainlogo-color);
 }
@@ -43,5 +39,41 @@ a[href="mailto:info@devstudio.com"] {
 }
 a[href="tel:+380961111111"] {
     color: var(--maincolor-color);
+}
+
+span {
+    font-family: Raleway;
+}
+
+header{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+}
+
+h1{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; 
+    letter-spacing: 2.64px;
+
+}
+
+section {
+    font-family: Roboto;
+}
+
+h2 {
+color: #212121;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
 }
 
