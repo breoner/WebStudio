@@ -199,6 +199,8 @@ letter-spacing: 0.42px;
 .team-section{
     background:var(--sectionbg-color);
     padding-top: 94px;
+    
+
 }
 
 .image-team{
@@ -233,6 +235,7 @@ margin-bottom: 50px;
     display: flex;
     align-items: center;
     gap: 30px;
+    padding-bottom: 94px;
 }
 
 .name-team{
