@@ -211,7 +211,7 @@ letter-spacing: 0.42px;
 
 .team-div{
     border-radius: 0px 0px 4px 4px;
-    background: var(--main-backround);
+    background: var(--title-color);
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -236,11 +236,12 @@ margin-bottom: 50px;
 }
 
 .name-team{
-    color: var(--title-color);
+    color: var(--maincolor-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.48px;
+    margin-bottom: 10px;
 }
 
 .work-team{
