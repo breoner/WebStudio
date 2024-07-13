@@ -19,6 +19,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline:solid red  ;
 }
 
 .header{
@@ -66,8 +67,7 @@ letter-spacing: 0.78px;
 .address-header{
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    margin-left: 344px;
+    margin-left: auto;
     gap: 50px;
 }
 
@@ -119,8 +119,6 @@ line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
 width: 696px;
-display: flex;
-justify-content: center;
 text-align: center;
 margin: 0 auto;
 margin-bottom: 30px;
@@ -176,8 +174,8 @@ letter-spacing: 0.42px;
 
 .main-service{
     padding-top: 94px;
+    padding-top: 94px;
     background-color: var(--title-color);
-    display: flex;
 }
 
 .service-title{
@@ -204,7 +202,7 @@ letter-spacing: 0.42px;
 .team-section{
     background:var(--sectionbg-color);
     padding-top: 94px;
-    
+    padding-bottom: 94px;
 
 }
 
