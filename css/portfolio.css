@@ -13,14 +13,16 @@
 .body {
     font-family: "Roboto";
 }
-
+ 
 .container{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline:solid red;
 }
 
-.header{
+
+.header-port{
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -41,6 +43,32 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-port{
+    display: flex;
+    margin-left: 93px;
+}
+
+.header-ul-port{
+    display: flex;
+    gap: 50px;
+}
+
+.address-port{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 50px;
+}
+
+.nav-list-port{
+    margin-right: ;
 }
 
 .navigation-list-port-visited{
@@ -84,11 +112,44 @@ letter-spacing: 0.28px;
     letter-spacing: 0.28px;
 }
 
-.button-list{
+.item-list{
+    display: flex;
+    align-items: center;
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 50px;
 }
 
+.button-navigate{
+    display: flex;
+    gap: 30px;
+    margin-left: 297px;
+    margin-right: 297px;
+    margin-bottom: 50px;
+    margin-top: 94px;
+
+}
+
+
+.port-button{
+    display: flex;
+    white-space: nowrap;
+    padding: 6px 22px;
+    color: var(--maincolor-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62; /* 162.5% */
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.tovar-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    margin-bottom: 94px;
+}
 
 .navigation-visited-port:visited {
      color: var(--mainlogo-color);
@@ -113,16 +174,6 @@ letter-spacing: 0.28px;
     color: var(--mainlogo-color);
 }
 
-.port-button{
-    color: var(--maincolor-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.62; /* 162.5% */
-    letter-spacing: 0.48px;
-    border-radius: 4px;
-    background: #F5F4FA;
-}
 
 .port-button:hover{
     color: #FFF;
