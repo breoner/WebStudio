@@ -186,8 +186,10 @@ letter-spacing: 0.42px;
 
 .service-list{
       display: flex;
+      width: 370px;
+      height: 294px;
       gap: 30px;
-      padding-bottom: 94px;
+      padding-bottom: 94px; 
 }
 
 .service-title{
@@ -202,13 +204,9 @@ letter-spacing: 0.42px;
 .team-section{
     background:var(--sectionbg-color);
     padding-top: 94px;
-    padding-bottom: 94px    ;
-
 }
 
 .image-team{
-    display: flex;
-    gap: 30px;
     width: 270px;
     height: 260px;
 
@@ -236,9 +234,11 @@ margin-bottom: 50px;
 
 .team-ul{
     display: flex;
-    align-items: center;
+    width: 270px;
+    height: 368px;
     gap: 30px;
     padding-bottom: 94px;
+
 }
 
 .name-team{

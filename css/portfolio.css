@@ -67,10 +67,6 @@ letter-spacing: 0.78px;
     gap: 50px;
 }
 
-.nav-list-port{
-    margin-right: ;
-}
-
 .navigation-list-port-visited{
     color: var(--mainlogo-color);
 font-size: 14px;
@@ -126,7 +122,6 @@ letter-spacing: 0.28px;
     margin-right: 297px;
     margin-bottom: 50px;
     margin-top: 94px;
-
 }
 
 
