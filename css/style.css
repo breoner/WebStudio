@@ -19,7 +19,8 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline:solid red  ;
+    box-sizing: border-box;
+    outline:solid red;
 }
 
 .header{
@@ -173,7 +174,7 @@ letter-spacing: 0.42px;
 }
 
 .main-service{
-    padding-top: 94px;
+    padding-bottom: 94px;
     padding-top: 94px;
     background-color: var(--title-color);
 }
@@ -186,10 +187,8 @@ letter-spacing: 0.42px;
 
 .service-list{
       display: flex;
-      width: 370px;
-      height: 294px;
       gap: 30px;
-      padding-bottom: 94px; 
+
 }
 
 .service-title{
@@ -204,12 +203,13 @@ letter-spacing: 0.42px;
 .team-section{
     background:var(--sectionbg-color);
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .image-team{
+    display: flex;
     width: 270px;
     height: 260px;
-
 }
 
 .team-div{
@@ -234,12 +234,9 @@ margin-bottom: 50px;
 
 .team-ul{
     display: flex;
-    width: 270px;
-    height: 368px;
     gap: 30px;
-    padding-bottom: 94px;
-
 }
+
 
 .name-team{
     color: var(--maincolor-color);
