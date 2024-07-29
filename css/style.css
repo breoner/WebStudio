@@ -19,13 +19,14 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 1px solid red;
     box-sizing: border-box;
-    outline:solid red;
 }
 
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    
     
 }
 
@@ -52,6 +53,7 @@ letter-spacing: 0.78px;
 
 .header-list{
     display: flex;
+    box-sizing: border-box;
     gap: 50px;
 }
 
@@ -68,6 +70,7 @@ letter-spacing: 0.78px;
 .address-header{
     display: flex;
     align-items: center;
+    box-sizing: border-box;
     margin-left: auto;
     gap: 50px;
 }
@@ -136,18 +139,19 @@ margin-bottom: 30px;
     letter-spacing: 0.96px;
     border-radius: 4px;
     padding: 10px 32px;
+    border: none;
     
 }
 
 
 .main-project{
     padding-top: 94px;
-    display: flex;
 
 }
 
 .project{
     display: flex;
+    box-sizing: border-box;
     gap: 30px;
 }
 
@@ -187,6 +191,7 @@ letter-spacing: 0.42px;
 
 .service-list{
       display: flex;
+      box-sizing: border-box;
       gap: 30px;
 
 }
@@ -234,6 +239,7 @@ margin-bottom: 50px;
 
 .team-ul{
     display: flex;
+    box-sizing: border-box;
     gap: 30px;
 }
 
@@ -263,7 +269,7 @@ margin-bottom: 50px;
 }
 
 .footer-web{
-    color: var(--mainlogo-color);
+    color: var(--title-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -272,7 +278,7 @@ letter-spacing: 0.78px;
 }
 
 .footer-studio{
-    color: var(--title-color);
+    color: var(--mainlogo-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -286,6 +292,8 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; 
 letter-spacing: 0.42px;
+padding-bottom: 9px;
+margin-top: 20px;
 }
 
 .address-footer{
@@ -294,6 +302,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; 
 letter-spacing: 0.42px;
+padding-bottom: 9px;
 }
 
 .tel-footer{

@@ -21,13 +21,14 @@ body{
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
-    outline:solid red;
+    outline: 1px solid red;
 }
 
 
 .header-port{
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-logo{
@@ -120,8 +121,6 @@ letter-spacing: 0.28px;
 .item-list{
     display: flex;
     align-items: center;
-    /* padding-top: 94px;
-    padding-bottom: 94px; */
 }
 
 .tovar-list{
@@ -157,6 +156,7 @@ letter-spacing: 0.28px;
     line-height: 1.62; /* 162.5% */
     letter-spacing: 0.48px;
     border-radius: 4px;
+    border: none;
     background: #F5F4FA;
 }
 
