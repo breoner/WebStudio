@@ -127,8 +127,17 @@ letter-spacing: 0.28px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 94px;
 }
     
+.card{
+    flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid var(--title-color)
+}
+
+.card-img{
+    width: 100%;
+}
 
 .tovar-titlee{
     border: 1px solid var(--ramborder-color);
