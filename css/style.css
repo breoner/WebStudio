@@ -107,8 +107,6 @@ letter-spacing: 0.28px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--background-color);
-    display: flex;
-    justify-content: center;
     text-align: center;
     margin: 0 auto;
 }
@@ -185,8 +183,6 @@ letter-spacing: 0.42px;
 
 .service-title{
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
 }
 
 .service-list{
@@ -286,14 +282,21 @@ line-height: 1.38;
 letter-spacing: 0.78px;
 }
 
+.main-address{
+    margin-top: 20px;
+}
+
+.contacts-list{
+    margin-top: 9px;
+}
+
 .address-map{
     color: var(--title-color);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71; 
+font-style: normal;
 letter-spacing: 0.42px;
-padding-bottom: 9px;
-margin-top: 20px;
 }
 
 .address-footer{
@@ -302,7 +305,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; 
 letter-spacing: 0.42px;
-padding-bottom: 9px;
+margin-top: 9px;
 }
 
 .tel-footer{
@@ -311,4 +314,5 @@ padding-bottom: 9px;
     font-weight: 400;
     line-height: 1.71; 
     letter-spacing: 0.42px;
+    margin-top: 9px;
 }
