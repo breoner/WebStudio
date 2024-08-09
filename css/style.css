@@ -11,6 +11,7 @@
     --greylic-color: #F5F4FA;
     --black-color: #000;
     --backgroundimg-color:rgba(47, 48, 58, 0.40);
+    --buttonshadow-color:rgba(0, 0, 0, 0.15);
 
 
 }
@@ -24,7 +25,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     box-sizing: border-box;
 }
 
@@ -151,9 +152,8 @@ margin-bottom: 30px;
     border-radius: 4px;
     padding: 10px 32px;
     border: none;
-    
+    box-shadow: 0px 4px 4px 0px var(--buttonshadow-color);
 }
-
 
 .main-project{
     padding-top: 94px;
