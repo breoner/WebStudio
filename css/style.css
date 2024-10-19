@@ -111,11 +111,29 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+width: 16px;
+height: 12px;
 }
 
 .address-list:hover,
 .address-list:focus{
       color: var(--mainlogo-color);
+      .address-svgh{
+        width: 16px;
+        height: 12px;
+        fill: #2196F3;
+      }
+}
+
+.address-svgh{
+    width: 16px;
+    height: 12px;
+    padding-right: 10px;
+}
+
+.address-svgh:hover,
+.address_svgh:focus{
+    fill: var(--mainlogo-color);
 }
 
 .main-hero{
