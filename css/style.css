@@ -26,7 +26,6 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 1px solid red; */
     box-sizing: border-box;
 }
 
@@ -128,11 +127,11 @@ height: 12px;
 .address-svgh{
     width: 16px;
     height: 12px;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .address-svgh:hover,
-.address_svgh:focus{
+.address-svgh:focus{
     fill: var(--mainlogo-color);
 }
 
@@ -389,14 +388,14 @@ font-size: 36px;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .clients-list{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 
