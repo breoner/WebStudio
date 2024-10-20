@@ -281,6 +281,27 @@ letter-spacing: 0.42px;
     letter-spacing: 1.08px;
 }
 
+.service-pose{
+   position: relative;
+}
+
+.service-p{
+  position: absolute;
+  background: rgba(47, 48, 58, 0.80);
+  padding: 27px 107px 27px 107px;
+  white-space: nowrap;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
 .team-section{
     background:var(--sectionbg-color);
     padding-top: 94px;
