@@ -33,7 +33,7 @@
 <section class="main-hero">
     <div class="container">
    <h1 class="title-hero">Ефективні рішення для вашого бізнесу</h1>
-   <button type="button" class="main-button">Замовити послугу</button>
+   <button type="button" class="main-button" data-modal-open>Замовити послугу</button>
 </div>
 
 </section>
@@ -322,5 +322,49 @@
 </address>
 </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="model">
+            <form class="model-form">
+                <h2 class="model-title">Залиште свої дані, ми вам передзвонимо</h2>
+                <label class="model-label" for="name" >Ім'я</label>
+                <div class="model-box">
+                    <input class="model-input" id="name" type="text" required>
+                <svg class="model-icon">
+                    <use href="./img/symbol-defs.svg#icon-user"></use>
+                </svg></div>
+
+                <label class="model-label" for="phone" >Телефон</label>
+                <div class="model-box">
+                    <input class="model-input" id="phone" type="tel" required  pattern="^\+?3?8?(0\d{9})$">
+                <svg class="model-icon">
+                    <use href="./img/symbol-defs.svg#icon-phone"></use>
+                </svg></div>
+
+                <label class="model-label" for="mail">Пошта</label>
+                <div class="model-box">
+                    <input class="model-input" id="mail" type="email" required>
+                <svg class="model-icon">
+                    <use href="./img/symbol-defs.svg#icon-email"></use>
+                </svg></div>
+
+                <label class="model-label" for="coment">Коментар</label>
+                <textarea class="model-comentt" name="" id="coment" placeholder="Введіть текст"></textarea>
+                <label class="model-check">
+                    <input class="model-checkbox" type="checkbox" required>
+                    <span class="model-span">Погоджуюся з розсилкою та приймаю </span>
+                    <a href="" class="model-link">Умови договору</a>
+                </label>
+                <button class="model-btn" type="submit">Відправити</button> 
+                <button class="model-close" type="button" data-modal-close>
+                    <svg class="model-exit">
+                        <use href="./img/symbol-defs.svg#icon-cross"></use>
+                    </svg>
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="./js/model.js"></script>
 </body>
 </html>
