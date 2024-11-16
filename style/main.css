@@ -75,7 +75,7 @@ body {
   gap: 50px;
 }
 
-.nav-header {
+.header-nav {
   display: flex;
   margin-left: 93px;
 }
@@ -85,7 +85,7 @@ body {
   align-items: center;
 }
 
-.address-header {
+.header-address {
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -513,7 +513,7 @@ body {
   box-shadow: 0px 4px 4px 0px var(--buttonshadow-color);
 }
 
-.main-project {
+.project-main {
   padding-top: 94px;
 }
 
@@ -592,7 +592,7 @@ body {
   letter-spacing: 0.42px;
 }
 
-.main-service {
+.service-main {
   padding-bottom: 94px;
   padding-top: 94px;
   background-color: var(--title-color);
@@ -638,7 +638,7 @@ body {
   text-transform: uppercase;
 }
 
-.team-section {
+.section-team {
   background: var(--sectionbg-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -787,7 +787,7 @@ body {
   transition-duration: 250ms;
 }
 
-.main-footer {
+.footer-main {
   background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -953,7 +953,7 @@ body {
   margin-left: 93px;
 }
 
-.main-footer {
+.footer-main {
   background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1157,7 +1157,7 @@ body {
   border: none;
 }
 
-.tovar-list {
+.card-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
